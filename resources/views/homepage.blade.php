@@ -9,9 +9,9 @@
 <body>
     <h1> here is sadiks home</h1>
 
-    <a href="">About</a><br>
-    <a href="">home</a><br>
-    <a href="">contact</a><br>
+    <a href="{{url('about')}}">About</a><br>
+    <a href="{{url('/')}}">home</a><br>
+    <a href="{{url('contact')}}">contact</a><br>
     
 </body>
 </html>
