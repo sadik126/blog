@@ -17,9 +17,11 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', 'sitecontroller@home');
+// Route::get('/', 'sitecontroller@home');
 
-Route::get('/about', 'sitecontroller@about');
+// Route::get('/about', 'sitecontroller@about');
+
+Route::get('/name/{namevalue}', 'democontroller@myname');
 
 
 
