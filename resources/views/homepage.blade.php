@@ -12,6 +12,10 @@
     <a href="{{url('about')}}">About</a><br>
     <a href="{{url('/')}}">home</a><br>
     <a href="{{url('contact')}}">contact</a><br>
+
+    
+
+    
     
 </body>
 </html>
